@@ -3,7 +3,7 @@
   "displayName": "Tech Blogs",
   "publisher": "VishwarajSingh",
   "description": "New Update of Technology on vscode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.101.0"
   },
