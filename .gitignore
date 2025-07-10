@@ -6,3 +6,4 @@ changeLog.md
 test/
 vsc-extension-quickstart.md
 .env
+config.json

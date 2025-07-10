@@ -3,7 +3,9 @@ const axios = require('axios');
 const { XMLParser } = require('fast-xml-parser');
 require('dotenv').config(); // Load .env
 
-const RSS_URL = process.env.VERGE_FEED_URL;
+const config = require('./config.json');
+
+const apiBaseUrl = config.apiBaseUrl;
 
 function stripHtml(html) {
 	if (typeof html !== 'string') {
@@ -24,7 +26,7 @@ function activate(context) {
 		vscode.window.showInformationMessage('Fetching tech news from The Verge...');
 
 		try {
-			const response = await axios.get(RSS_URL);
+			const response = await axios.get(apiBaseUrl);
 
 			const parser = new XMLParser({
 				ignoreAttributes: false
