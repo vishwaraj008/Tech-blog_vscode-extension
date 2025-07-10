@@ -5,3 +5,4 @@ node_modules
 changeLog.md
 test/
 vsc-extension-quickstart.md
+.env
