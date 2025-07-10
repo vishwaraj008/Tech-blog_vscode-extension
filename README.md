@@ -2,6 +2,8 @@
 
 A lightweight Visual Studio Code extension that fetches the latest tech news from [The Verge](https://www.theverge.com/) and displays articles in a Quick Pick menu. Select any article to read it instantly in your browser.
 
+This extension uses public RSS feeds provided by The Verge. All content remains the property of its respective publisher. Visit theverge.com for full articles.
+
 ---
 
 ## Features

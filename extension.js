@@ -18,7 +18,7 @@ function stripHtml(html) {
  */
 function activate(context) {
 	const disposable = vscode.commands.registerCommand('blogs.searchTechNews', async () => {
-		vscode.window.showInformationMessage('Fetching tech news from The Verge...');
+		vscode.window.showInformationMessage('Fetching News powered by The Verge');
 
 		try {
 			const response = await axios.get('https://www.theverge.com/rss/index.xml');
